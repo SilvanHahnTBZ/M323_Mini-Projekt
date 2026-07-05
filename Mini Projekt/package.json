@@ -1,0 +1,15 @@
+{
+  "name": "todo-cli-undo-redo",
+  "version": "1.0.0",
+  "description": "CLI Todo App mit Undo/Redo – M323 Mini Projekt",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/cli.ts",
+    "test": "node --import tsx/esm --test tests/*.test.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}
